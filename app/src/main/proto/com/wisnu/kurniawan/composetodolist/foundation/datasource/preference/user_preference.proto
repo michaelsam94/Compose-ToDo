@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "com.wisnu.kurniawan.composetodolist.foundation.datasource.preference.model";
+option java_package = "com.medhat.todo.composetodolist.foundation.datasource.preference.model";
 option java_multiple_files = true;
 
 message UserPreference {

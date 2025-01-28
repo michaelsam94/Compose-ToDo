@@ -15,7 +15,7 @@ class BaselineProfileGenerator {
     @Test
     fun startup() =
         baselineProfileRule.collect(
-            packageName = "com.wisnu.kurniawan.composetodolist"
+            packageName = "com.medhat.todo.composetodolist"
         ) {
             pressHome()
             // This block defines the app's critical user journey. Here we are interested in

@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
-        android:name="com.wisnu.kurniawan.composetodolist.runtime.ComposeToDoListApp"
+        android:name="com.medhat.todo.composetodolist.runtime.ComposeToDoListApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="${APP_NAME}"
@@ -19,7 +19,7 @@
             tools:targetApi="q" />
 
         <activity
-            android:name="com.wisnu.kurniawan.composetodolist.runtime.MainActivity"
+            android:name="com.medhat.todo.composetodolist.runtime.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -63,11 +63,11 @@
             android:exported="false"
             tools:node="merge">
             <meta-data
-                android:name="com.wisnu.kurniawan.composetodolist.runtime.initializer.DebugToolsInitializer"
+                android:name="com.medhat.todo.composetodolist.runtime.initializer.DebugToolsInitializer"
                 android:value="androidx.startup" />
 
             <meta-data
-                android:name="com.wisnu.kurniawan.composetodolist.runtime.initializer.ActivityLifecycleLoggrInitializer"
+                android:name="com.medhat.todo.composetodolist.runtime.initializer.ActivityLifecycleLoggrInitializer"
                 android:value="androidx.startup" />
         </provider>
     </application>

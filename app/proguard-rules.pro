@@ -1,1 +1,1 @@
--keep class com.wisnu.kurniawan.composetodolist.model.** { *; }
+-keep class com.medhat.todo.composetodolist.model.** { *; }

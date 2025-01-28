@@ -35,7 +35,7 @@ ext.codeCoverage = [
 ]
 
 android {
-    namespace 'com.wisnu.kurniawan.composetodolist'
+    namespace 'com.medhat.todo.composetodolist'
 
     defaultConfig {
         minSdkVersion project.ext.minSdkVersion
